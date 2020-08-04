@@ -1,5 +1,8 @@
 # Prirowser Desktop
 
+## Description
+> Prirowser the browser dosen't track you / sell your data.
+
 ## Available commands:
 > To install all dependencies.
 
