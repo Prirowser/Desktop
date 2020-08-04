@@ -1,8 +1,12 @@
 # Prirowser Desktop
 
 ## Available commands:
+> To install all dependencies.
 
-    npm install
-    yarn install
+    npm install or yarn install
+    
+_________________
 
-> Installs all dependencies to run application.
+> To run the application.
+
+    npm run start, npm start or yarn start
