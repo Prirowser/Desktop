@@ -28,4 +28,4 @@ _________________
 _________________
 
 ## Built with:
-   1. [Electron](http://electronjs.com)
+   1. [Electron](http://electronjs.org)
