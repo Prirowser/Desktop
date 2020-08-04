@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "electron": "^9.1.2"
+  },
+  "name": "prirowser-desktop",
+  "version": "1.0.0",
+  "main": "src/electron/main.js",
+  "repository": "https://github.com/Prirowser/Desktop.git",
+  "author": "zalnaRs <thezalnar@hotmail.com>",
+  "license": "MIT",
+  "private": true
+}
