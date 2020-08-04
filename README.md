@@ -5,4 +5,4 @@
 ### npm install
 ### yarn install
 
-# Installs all dependencies to run application.
+> Installs all dependencies to run application.
