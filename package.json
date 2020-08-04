@@ -11,6 +11,7 @@
     },
     "dependencies": {
         "electron": "^9.1.2",
-        "electron-builder": "^22.8.0"
+        "electron-builder": "^22.8.0",
+        "material-components-web": "^7.0.0"
     }
 }
