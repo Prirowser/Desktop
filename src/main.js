@@ -8,7 +8,8 @@ function createWindow() {
         minHeight: 600,
         title: 'Prirowser',
         webPreferences: {
-            nodeIntegration: true
+            nodeIntegration: true,
+            webviewTag: true
         }
     })
 

@@ -5,11 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prirowser</title>
-    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/icons.css">
 </head>
 
 <body>
-    <webview style="width: 100%; height: 100%;" src="http://google.com" id="webview" />
+    <header>
+        <div style="margin: 5px; display: flex; align-items: center; justify-content: center;" class="left">
+            <span onclick="back()" style="margin-right: 5px; width: 23px; height: 23px;" class="material-icons">
+                keyboard_arrow_left
+            </span>
+            <span onclick="forward()" style="width: 23px; height: 23px;" class="material-icons">
+                keyboard_arrow_right
+            </span>
+        </div>
+    </header>
+    <webview style="width: 100%; height: 95%;" id="webview" src="http://google.com" class="webview" />
+    <script src="../assets/js/browser.js"></script>
 </body>
 
 </html>
