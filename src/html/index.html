@@ -5,23 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prirowser</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
     <link rel="stylesheet" href="../assets/css/global.css">
     <link rel="stylesheet" href="../assets/css/icons.css">
+    <link rel="stylesheet" href="../assets/css/inputtext.css">
 </head>
+<style>
+    .urlbar {
+        max-width: 85%;
+        width: 85%;
+    }
+    
+    @media only screen and (max-width: 776px) {
+        .urlbar {
+            max-width: 85%;
+            width: 85%;
+        }
+    }
+    
+    @media only screen and (max-width: 640px) {
+        .urlbar {
+            max-width: 75%;
+            width: 75%;
+        }
+    }
+</style>
 
 <body>
     <header>
-        <div style="margin: 5px; display: flex; align-items: center; justify-content: center;" class="left">
-            <span onclick="back()" style="margin-right: 5px; width: 23px; height: 23px;" class="material-icons">
+        <div style="margin: 5px;display: flex; align-items: center; justify-content: center;" class="left">
+            <span onclick="back() " style="margin-right: 5px; width: 23px; height: 23px; " class="material-icons ">
                 keyboard_arrow_left
             </span>
-            <span onclick="forward()" style="width: 23px; height: 23px;" class="material-icons">
+            <span onclick="forward() " style="width: 23px; height: 23px; " class="material-icons ">
                 keyboard_arrow_right
             </span>
         </div>
+        <div class="center">
+            <input style="margin: 5px;" class="textinput urlbar" id="urlbar" type="url " placeholder="Search or enter a url " />
+        </div>
     </header>
-    <webview style="width: 100%; height: 95%;" id="webview" src="http://google.com" class="webview" />
-    <script src="../assets/js/browser.js"></script>
+    <webview style="width: 100%; height: 95%; " id="webview" src="http://google.com " class="webview " />
+    <script src="../assets/js/browser.js "></script>
 </body>
 
 </html>

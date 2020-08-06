@@ -1,0 +1,12 @@
+.textinput {
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 50px;
+    border: solid #adadad 2px;
+    text-align: center;
+}
+
+.textinput:hover {
+    font-size: 14px;
+    border-color: #36c3d6;
+}

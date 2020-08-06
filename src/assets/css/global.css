@@ -13,10 +13,19 @@ body {
     overflow: hidden;
 }
 
+*:focus {
+    outline: none;
+}
+
 .right {
     float: right;
 }
 
 .left {
     float: left;
+}
+
+input:focus,
+input:focus {
+    outline: none;
 }
