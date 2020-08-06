@@ -1,11 +1,3 @@
-function back() {
-    document.getElementById('webview').goBack();
-}
-
-function forward() {
-    document.getElementById('webview').goForward();
-}
-
 document.getElementById('urlbar').addEventListener("keyup", function(event) {
     if (event.key === "Enter") {
         let https = document.getElementById('urlbar').value.slice(0, 8).toLowerCase();
@@ -19,3 +11,15 @@ document.getElementById('urlbar').addEventListener("keyup", function(event) {
         }
     }
 });
+
+function back() {
+    document.getElementById('webview').goBack();
+}
+
+function forward() {
+    document.getElementById('webview').goForward();
+}
+
+function refresh() {
+    document.getElementById('webview').reload();
+}

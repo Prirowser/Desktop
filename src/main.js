@@ -16,8 +16,6 @@ function createWindow() {
     win.loadFile(__dirname + '/html/index.html');
 
     win.webContents.openDevTools();
-
-    process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = '1';
 }
 
 app.whenReady().then(createWindow)
